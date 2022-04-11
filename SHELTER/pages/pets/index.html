@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelter</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap"
+      rel="stylesheet"/>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="wrapper header__wrapper">
+          <div class="header__logo-line">
+            <div class="logo">
+              <h1 id="logo_id" data-active-link class="logo__title">Cozy House</h1>
+              <p class="logo__subtitle">Shelter for pets in Boston</p>
+            </div>
+          </div>
+          <nav class="navigation">
+            <ul class="navigation__list">
+              <li id="about_id" data-active-link class="navigation__item">
+                About the shelter
+              </li>
+              <li data-active-link class="navigation__item navigation__item_selected">Our pets</li>
+             <a href="../main/index.html#help_id"> <li class="navigation__item">Help the shelter</li></a>
+              <a href="#footer_id"><li class="navigation__item">Contacts</li></a>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="our-friends">
+        <div class="wrapper our-friends__wrapper">
+          <h3 class="our-friends__title">
+            Our friends who <br />
+            are looking for a house
+          </h3>
+          <div class="slider">
+            <div class="slider__list slider__list_active">
+              <div class="slide">
+                <img
+                  class="slide__image"
+                  src="../../assets/images/slide_1.svg"
+                  alt="d"
+                />
+                <span class="slide__name">Katrine</span>
+                <button class="button button_colored">Learn more</button>
+              </div>
+              <div class="slide">
+                <img
+                  class="slide__image"
+                  src="../../assets/images/slide_2.svg"
+                  alt="d"
+                />
+                <span class="slide__name">Jennifer</span>
+                <button class="button button_colored">Learn more</button>
+              </div>
+              <div class="slide">
+                <img
+                  class="slide__image"
+                  src="../../assets/images/slide_3.svg"
+                  alt="d"
+                />
+                <span class="slide__name">Woody</span>
+                <button class="button button_colored">Learn more</button>
+              </div>
+              <div class="slide">
+                <img
+                  class="slide__image"
+                  src="../../assets/images/slide_4.svg"
+                  alt="d"
+                />
+                <span class="slide__name">Sophia</span>
+                <button class="button button_colored">Learn more</button>
+              </div>
+              <div class="slide">
+                <img
+                  class="slide__image"
+                  src="../../assets/images/slide_5.svg"
+                  alt="d"
+                />
+                <span class="slide__name">Timmy</span>
+                <button class="button button_colored">Learn more</button>
+              </div>
+              <div class="slide">
+                <img
+                  class="slide__image"
+                  src="../../assets/images/slide_6.svg"
+                  alt="d"
+                />
+                <span class="slide__name">Charly</span>
+                <button class="button button_colored">Learn more</button>
+              </div>
+              <div class="slide">
+                <img
+                  class="slide__image"
+                  src="../../assets/images/slide_7.svg"
+                  alt="d"
+                />
+                <span class="slide__name">Scarlett</span>
+                <button class="button button_colored">Learn more</button>
+              </div>
+              <div class="slide">
+                <img
+                  class="slide__image"
+                  src="../../assets/images/slide_8.svg"
+                  alt="d"
+                />
+                <span class="slide__name">Freddlie</span>
+                <button class="button button_colored">Learn more</button>
+              </div>
+            </div>
+          </div>
+          <div class="slider__buttons">
+            <button class="button button_end button_reverse"></button>
+            <button class="button button_next-page button_reverse"></button>
+            <span class="button_current-page">1</span>
+            <button class="button button_next-page"></button>
+            <button class="button button_end"></button>
+          </div>
+        </div>
+      </section>
+      <footer id="footer_id" class="footer">
+        <div class="wrapper footer__wrapper">
+          <div class="contact">
+            <div class="contact__list">
+              <h3 class="contact__title">
+                For questions <br />
+                and suggestions
+              </h3>
+              <a class="contact__link" href="mailto:email@shelter.com">
+                <span class="contact__link-icon-mail"></span
+                ><span class="contact__link-text">email@shelter.com</span></a
+              >
+              <a class="contact__link" href="tel:+136745677554">
+                <span class="contact__link-icon-phone"></span
+                ><span class="contact__link-text">+13 674 567 75 54</span></a
+              >
+            </div>
+            <div class="contact__list">
+              <h3 class="contact__title">
+                We are waiting <br />
+                for your visit
+              </h3>
+  
+              <a
+                class="contact__link"
+                href="https://www.google.com/maps/@53.9190472,27.5723341,11.12z?hl=ru"
+              >
+                <span class="contact__link-icon-position"></span
+                ><span class="contact__link-text"
+                  >1 Central Street, Boston <br />(entrance from the store)</span
+                >
+              </a>
+              <a
+                class="contact__link"
+                href="https://www.google.com/maps/@53.9190472,27.5723341,11.12z?hl=ru"
+                ><span class="contact__link-icon-position"></span
+                ><span class="contact__link-text">18 South Park, London </span></a
+              >
+            </div>
+          </div>
+          <img src="../../assets/images/footer-animal.png"/>
+        </div>
+      </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
